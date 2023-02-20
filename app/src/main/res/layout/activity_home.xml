@@ -4,33 +4,30 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Controllers.MainActivity">
+    tools:context=".Controllers.HomeActivity">
 
-    <TextView
-        android:id="@+id/textView"
+    <Button
+        android:id="@+id/home_logout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Carpool Buddy"
-        android:textSize="34sp"
+        android:layout_marginStart="159dp"
+        android:layout_marginEnd="159dp"
+        android:layout_marginBottom="32dp"
+        android:text="logout"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/home_welcomeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="153dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="200dp"
+        android:text="Welcome,"
+        android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/sign_in"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="105dp"
-        android:layout_marginTop="125dp"
-        android:layout_marginEnd="106dp"
-        android:layout_marginBottom="182dp"
-        android:foregroundGravity="center"
-        android:text="Sign In With Google"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
-
-
 </androidx.constraintlayout.widget.ConstraintLayout>

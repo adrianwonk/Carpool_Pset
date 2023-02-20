@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1090416644064",
+    "project_id": "carpool-awong",
+    "storage_bucket": "carpool-awong.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1090416644064:android:7048dc1ab5e50e2eb4a585",
+        "android_client_info": {
+          "package_name": "awong.carpool_pset"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1090416644064-s5p4e8nu4l917qcirbjhin56dt49qb17.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBompUAyEyrPVxqn0xPFo1fCPOeiC1sJgM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1090416644064-eb1vf4r9kjeei7o6ran48nqeufjs6852.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
